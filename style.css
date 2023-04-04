@@ -178,8 +178,6 @@
     border-bottom-right-radius: 60px;
   }
 
-
-
   .pacman-container-6 {
     position: absolute;
     top: 600px;
@@ -190,7 +188,6 @@
     background-color: black;
     z-index: 2;
   }
-
 
   .pacman-container-7 {
     position: absolute;
@@ -203,7 +200,6 @@
     z-index: 2;
   }
 
-
   .pacman-container-8 {
     position: absolute;
     top: 600px;
@@ -214,7 +210,6 @@
     background-color: white;
     z-index: 2;
   }
-
 
   .pacman-container-9 {
     position: absolute;
@@ -243,7 +238,6 @@
         content: ' (' attr(title) ')';
     }
 }
-
   
   .break-bar { grid-area: break-bar; 
  grid-template-columns: 1fr 1fr 1fr;
@@ -259,7 +253,6 @@ background-color: yellow;
 } 
 
 .break-bar { grid-area: break-bar; }
-
 
 html, body , .container {
   height: 100%;
