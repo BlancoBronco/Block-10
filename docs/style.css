@@ -8,7 +8,7 @@
   /* styles for all screens */
   body {
     background-color: white;
-    color: black
+    color: darkgreen
   }
 
   /* Styler for screens larger than 844px */
@@ -22,8 +22,8 @@
   /* styles for screens between 667px and 844px */
   @media (max-width: 667px) and (max-width: 844px) {
     body {
-      background-color: gray;
-      color: white;
+      background-color: white;
+      color: darkgreen;
     }
     .content {
       position: static;
