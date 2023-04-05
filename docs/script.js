@@ -6,6 +6,6 @@ submitButtons.forEach(button => {
   button.addEventListener('click', event => {
     event.preventDefault(); // prevent the default form submission
     const formAction = event.target.form.action; // get the form action url
-    window.location.href = '${formAcion}?${new FormData(event.target.form)}'; // redirect to form.html
+    window.location.href = '${formAction}?${new FormData(event.target.form)}'; // redirect to form.html
   });
 });
