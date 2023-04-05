@@ -5,6 +5,31 @@
     }
   }
 
+  /* styles for all screens */
+  body {
+    background-color: white;
+    color: black
+  }
+
+  /* Styler for screens larger than 844px */
+  .content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+  }
+
+  /* styles for screens between 667px and 844px */
+  @media (max-width: 667px) and (max-width: 844px) {
+    body {
+      background-color: gray;
+      color: white;
+    }
+    .content {
+      position: static;
+      margin: 0 auto;
+    }
+  }
   /* Container styles */
 .container { 
     display: grid;
