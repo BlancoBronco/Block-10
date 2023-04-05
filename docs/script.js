@@ -5,6 +5,7 @@ const submitButtons = document.querySelectorAll('input[type="submit"]');
 submitButtons.forEach(button => {
   button.addEventListener('click', event => {
     event.preventDefault(); // prevent the default form submission
-    window.location.href = "form.html"; // redirect to form.html
+    const formAction = event.target.form.action; // get the form action url
+    window.location.href = '${formAcion}?${new FormData(event.target.form)}'; // redirect to form.html
   });
 });
