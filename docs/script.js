@@ -7,7 +7,7 @@
     event.preventDefault();
 
     // Redirect the user to form.html
-    window.location.href = 'index.html';
+    window.location.href = 'index1.html';
   });
 
   // Select the second form
@@ -19,6 +19,6 @@
     event.preventDefault();
 
     // Redirect the user to form.html
-    window.location.href = 'index.html';
+    window.location.href = 'index1.html';
   });
 
