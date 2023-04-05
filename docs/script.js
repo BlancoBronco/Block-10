@@ -1,4 +1,4 @@
-<script>
+<
   // Select the first form
   const form1 = document.querySelector('form:first-of-type');
 
@@ -22,4 +22,4 @@
     // Redirect the user to form.html
     window.location.href = 'form.html';
   });
-</script>
+
